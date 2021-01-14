@@ -1,11 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="../pstatic/css/main.css">
-  <link rel="stylesheet" type="text/css" href="../pstatic/layui/css/layui.css">
-  <script type="text/javascript" src="../pstatic/layui/layui.js"></script>
+  <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static '/layui/css/layui.css' %}">
+  <script type="text/javascript" src="{% static '/layui/layui.js' %}"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 </head>
@@ -18,7 +19,7 @@
       <div class="headerCon">
         <h1 class="mallLogo">
           <a href="#" title="母婴商城">
-            <img src="../pstatic/img/logo.png">
+            <img src="{% static '/img/logo.png' %}">
           </a>
         </h1>
         <div class="mallSearch">
@@ -51,7 +52,7 @@
     <div class="category-con">
       <div class="category-banner">
         <div class="w1200">
-          <img src="../pstatic/img/banner1.jpg">
+          <img src="{% static '/img/banner1.jpg' %}">
         </div>
       </div>
     </div>
@@ -60,7 +61,7 @@
         <div class="sk_inner w1200">
           <div class="sk_hd">
             <a href="javascript:;">
-              <img src="../pstatic/img/s_img1.jpg">
+              <img src="{% static '/img/s_img1.jpg' %}">
             </a>
           </div>
           <div class="sk_bd">
@@ -68,7 +69,7 @@
               <div carousel-item>
                 <div class="item-box">
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img2.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img2.jpg' %}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -76,7 +77,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img3.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img3.jpg' %}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -84,7 +85,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img4.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img4.jpg' %}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -92,7 +93,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img5.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img5.jpg' %}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -102,7 +103,7 @@
                 </div>
                 <div class="item-box">
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img2.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img2.jpg'%}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -110,7 +111,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img3.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img3.jpg'%}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -118,7 +119,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img4.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img4.jpg'%}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -126,7 +127,7 @@
                     </div>
                   </div>
                   <div class="item">
-                    <a href="javascript:;"><img src="../pstatic/img/s_img5.jpg"></a>
+                    <a href="javascript:;"><img src="{% static '/img/s_img5.jpg'%}"></a>
                     <div class="title">宝宝五彩袜棉质舒服</div>
                     <div class="price">
                       <span>￥49.00</span>
@@ -145,51 +146,51 @@
       <div class="product-item product-item1 layui-clear">
         <div class="left-title">
           <h4><i>1F</i></h4>
-          <img src="../pstatic/img/icon_gou.png">
+          <img src="{% static '/img/icon_gou.png' %}">
           <h5>宝宝服饰</h5>
         </div>
         <div class="right-cont">
-          <a href="javascript:;" class="top-img"><img src="../pstatic/img/img12.jpg" alt=""></a>
+          <a href="javascript:;" class="top-img"><img src="{% static '/img/img12.jpg' %}" alt=""></a>
           <div class="img-box">
-            <a href="javascript:;"><img src="../pstatic/img/s_img7.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img8.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img9.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img10.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img11.jpg"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img7.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img8.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img9.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img10.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img11.jpg'%}"></a>
           </div>
         </div>
       </div>
       <div class="product-item product-item2 layui-clear">
         <div class="left-title">
           <h4><i>2F</i></h4>
-          <img src="../pstatic/img/icon_gou.png">
+          <img src="{% static '/img/icon_gou.png' %}">
           <h5>奶粉辅食</h5>
         </div>
         <div class="right-cont">
           <a href="javascript:;" class="top-img"><img src="../pstatic/img/img12.jpg" alt=""></a>
           <div class="img-box">
-            <a href="javascript:;"><img src="../pstatic/img/s_img7.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img8.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img9.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img10.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img11.jpg"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img7.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img8.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img9.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img10.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img11.jpg'%}"></a>
           </div>
         </div>
       </div>
       <div class="product-item product-item3 layui-clear">
         <div class="left-title">
           <h4><i>3F</i></h4>
-          <img src="../pstatic/img/icon_gou.png">
+          <img src="{% static '/img/icon_gou.png' %}">
           <h5>宝宝用品</h5>
         </div>
         <div class="right-cont">
           <a href="javascript:;" class="top-img"><img src="../pstatic/img/img12.jpg" alt=""></a>
           <div class="img-box">
-            <a href="javascript:;"><img src="../pstatic/img/s_img7.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img8.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img9.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img10.jpg"></a>
-            <a href="javascript:;"><img src="../pstatic/img/s_img11.jpg"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img7.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img8.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img9.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img10.jpg'%}"></a>
+            <a href="javascript:;"><img src="{% static '/img/s_img11.jpg'%}"></a>
           </div>
         </div>
       </div>
@@ -223,7 +224,7 @@
 
 <script type="text/javascript">
 layui.config({
-    base: '../pstatic/js/'
+    base: "{% static '/js/' %}"
   }).use(['mm','carousel'],function(){
       var carousel = layui.carousel,
      mm = layui.mm;
